@@ -15,3 +15,4 @@
 14. PageFactory may give stale element reference or Null pointer exception - so avoid using it
 15. Create enums and ExplicitWaitFactory for waits
 16. Use Inheritance only if it satisfies IS A relationship and many methods of super class needs to used in subclass
+17. Create ThreadLocal for parallel execution
