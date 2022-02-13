@@ -13,3 +13,10 @@
 12. Create enums and ExplicitWaitFactory for waits
 13. Use Inheritance only if it satisfies IS A relationship and many methods of super class needs to used in subclass
 14. Create ThreadLocal for driver instantiation of parallel execution
+
+# KeywordDrivenPractice
+
+1. Create Actions, Tags, locator Value, Data columns in excel
+2. Create Actions class and methods with same name in actions column
+3. Create the Utility class that read the method names from Actions class and invoke it using Java Reflection API
+4. When Action column name and action class method names matched the method will get invoked
