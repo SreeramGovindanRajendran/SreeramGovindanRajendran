@@ -15,12 +15,17 @@
 14. Create ThreadLocal for driver instantiation of parallel execution
 
 # Keyword Driven Framework
-1. Create Action, Tag, locator Value, Data columns in excel
+1. Create Action column in excel
 2. Create Actions class and methods with same name in actions column
 3. Create the Utility class that read the method names from Actions class and invoke it using Java Reflection API
 4. When Action column name and action class method names matched the method will get invoked
 
 # Data Driven Framework
-1. Create the TestData columns in excel
+1. Create the TestData column in excel
 2. Create the DataProvider class and method that can read the data from excel for each testcase  - @DataProvider
 3. Create the action methods that will read refer the data from dataprovider method  - @Test(dataProvider = "Above method name")
+
+# Hybrid Framwork
+1. Combination of both Keyword Driven and Data Driven
+2. Create the Action and Test data column in excel
+3. Create the Action class and DataProvider class and invoke them
